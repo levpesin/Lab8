@@ -32,7 +32,11 @@ public class BankAccount {
          */
     }
 
-    /*
-     * Implement getters and setters as appropriate for private variables.
-     */
+    public void setNum(final accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public int getNum(final accountNumber) {
+        return accountNumber;
+    }
 }
